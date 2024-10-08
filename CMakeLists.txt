@@ -3,4 +3,7 @@ project(nongraded)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(nongraded main.cpp)
+add_executable(nongraded main.cpp
+        Student.cpp
+        GradeSystem.cpp
+)
